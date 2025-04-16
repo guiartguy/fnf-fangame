@@ -1,0 +1,11 @@
+local image -- Declare a variable for the image
+
+function love.load()
+    -- Load the image
+    image = love.graphics.newImage("path/to/your/image.png")
+end
+
+function love.draw()
+    -- Draw the image to the screen at coordinates (x, y)
+    love.graphics.draw(image, 100, 100)
+end
