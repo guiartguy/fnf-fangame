@@ -2,7 +2,7 @@ local image -- Declare a variable for the image
 
 function love.load()
     -- Load the image
-    image = love.graphics.newImage("path/to/your/image.png")
+    image = love.graphics.newImage("assets/images/image.png")
 end
 
 function love.draw()
